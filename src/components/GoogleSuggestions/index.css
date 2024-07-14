@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.app-container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+.google-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.google-image {
+  width: 50%;
+  max-width: 300px;
+  max-height: 200px;
+}
+.search-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 5px;
+}
+.input-search-container {
+  background-color: #ffffff;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.search-icon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.input-search-element {
+  width: 100%;
+  border-width: 0px;
+  outline: none;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+.google-search-items {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .google-container {
+    width: 60%;
+  }
+}
